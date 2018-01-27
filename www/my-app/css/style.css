@@ -7,7 +7,29 @@ body, html {
 	margin: 0px;
 
 }
+
 header{
-	height: 50px;
-	background: grey;
+	margin: auto;
+	height: 120px;
+	background: #242a2f;
+	max-width: 830px;
+
+}
+.header_Text {
+	color: #fff;
+	font-family: 'Sonsie One', cursive;
+	display: block;
+	text-align: right;
+	position: relative;
+	bottom: 105px;
+	right: 90px;
+
+}
+
+header > img {
+	position: relative;
+	display: block;
+	margin: auto;
+
+
 }
