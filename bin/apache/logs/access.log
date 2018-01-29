@@ -95,3 +95,16 @@
 ::1 - - [28/Jan/2018:12:00:13 -0700] "GET /my-app/img/adequate%20scott%20mezei%20new%20years%20eve%202017.jpg HTTP/1.1" 200 187797
 ::1 - - [28/Jan/2018:12:00:14 -0700] "GET /my-app/img/papa%20king%20new%20years%202017%20smaller.jpg HTTP/1.1" 200 77891
 ::1 - - [28/Jan/2018:12:00:14 -0700] "GET /favicon.ico HTTP/1.1" 404 309
+::1 - - [28/Jan/2018:22:51:20 -0700] "GET / HTTP/1.1" 200 1599
+::1 - - [28/Jan/2018:22:51:20 -0700] "GET /?getimg=title HTTP/1.1" 200 6119
+::1 - - [28/Jan/2018:22:51:20 -0700] "GET /?getimg=folder HTTP/1.1" 200 537
+::1 - - [28/Jan/2018:22:51:21 -0700] "GET /my-app HTTP/1.1" 301 332
+::1 - - [28/Jan/2018:22:51:21 -0700] "GET /my-app/ HTTP/1.1" 200 5857
+::1 - - [28/Jan/2018:22:51:21 -0700] "GET /my-app/css/style.css HTTP/1.1" 200 3866
+::1 - - [28/Jan/2018:22:51:22 -0700] "GET /my-app/js/script.js HTTP/1.1" 200 911
+::1 - - [28/Jan/2018:22:51:22 -0700] "GET /my-app/img/Twitter_Social_Icon_Circle_Color2.png HTTP/1.1" 200 2436
+::1 - - [28/Jan/2018:22:51:22 -0700] "GET /my-app/img/FB-f-Logo__blue_50.png HTTP/1.1" 200 1403
+::1 - - [28/Jan/2018:22:51:22 -0700] "GET /my-app/img/actual_logo.png HTTP/1.1" 200 55358
+::1 - - [28/Jan/2018:22:51:22 -0700] "GET /my-app/img/adequate%20scott%20mezei%20new%20years%20eve%202017.jpg HTTP/1.1" 200 187797
+::1 - - [28/Jan/2018:22:51:22 -0700] "GET /my-app/img/papa%20king%20new%20years%202017%20smaller.jpg HTTP/1.1" 200 77891
+::1 - - [28/Jan/2018:22:51:22 -0700] "GET /my-app/img/kanye_west_ad.png HTTP/1.1" 200 83971
