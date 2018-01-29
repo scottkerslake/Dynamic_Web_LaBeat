@@ -84,3 +84,14 @@
 ::1 - - [27/Jan/2018:11:14:28 -0700] "GET /favicon.ico HTTP/1.1" 404 309
 ::1 - - [27/Jan/2018:12:03:25 -0700] "GET /my-app/index.php HTTP/1.1" 200 1499
 ::1 - - [27/Jan/2018:12:03:26 -0700] "GET /my-app/index.php HTTP/1.1" 200 1499
+::1 - - [28/Jan/2018:12:00:10 -0700] "GET / HTTP/1.1" 200 1599
+::1 - - [28/Jan/2018:12:00:10 -0700] "GET /?getimg=title HTTP/1.1" 200 6119
+::1 - - [28/Jan/2018:12:00:10 -0700] "GET /?getimg=folder HTTP/1.1" 200 537
+::1 - - [28/Jan/2018:12:00:10 -0700] "GET /?getimg=favicon HTTP/1.1" 200 5430
+::1 - - [28/Jan/2018:12:00:13 -0700] "GET /my-app HTTP/1.1" 301 332
+::1 - - [28/Jan/2018:12:00:13 -0700] "GET /my-app/ HTTP/1.1" 200 1836
+::1 - - [28/Jan/2018:12:00:13 -0700] "GET /my-app/css/style.css HTTP/1.1" 200 1970
+::1 - - [28/Jan/2018:12:00:13 -0700] "GET /my-app/img/actual_logo.png HTTP/1.1" 200 55358
+::1 - - [28/Jan/2018:12:00:13 -0700] "GET /my-app/img/adequate%20scott%20mezei%20new%20years%20eve%202017.jpg HTTP/1.1" 200 187797
+::1 - - [28/Jan/2018:12:00:14 -0700] "GET /my-app/img/papa%20king%20new%20years%202017%20smaller.jpg HTTP/1.1" 200 77891
+::1 - - [28/Jan/2018:12:00:14 -0700] "GET /favicon.ico HTTP/1.1" 404 309

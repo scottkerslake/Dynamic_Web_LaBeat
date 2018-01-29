@@ -146,10 +146,27 @@ div.scrollmenu a:hover {
 	grid-gap: 10px;
 	align-self: start;
 }
-.article img {
+.advertising{
+	display: grid;
+	margin: 0px;
+	grid-template-columns: 1fr 1fr; 
+}
 
-	border-radius: 4px;
+.ad-1 {
+	
+	
+}
+.ad-2{
+	position: relative;
+	bottom: 50px;
+	
+
+
+}
+.article img {
 	width: 50%;
+	border-radius: 4px;
+	
 }
 div.article--btn{
 	width: 200px;
@@ -189,7 +206,7 @@ div.article--btn.btn--right {
 .article--right{
 	grid-template-columns: 2fr 1fr;
 	grid-column: 2/ span 12;
-	grid-row: 2;
+	
 	margin-bottom: 100px;
 
 }
