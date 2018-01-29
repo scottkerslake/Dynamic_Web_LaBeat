@@ -286,3 +286,37 @@ Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2018-01-24T19:53:54.473514Z 0 [Note] Shutting down plugin 'binlog'
 2018-01-24T19:53:54.473514Z 0 [Note] D:\scottkwdynamicweb\Templating\UwAmp\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
 
+2018-01-27T18:14:23.671620Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-01-27T18:14:23.671620Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2018-01-27T18:14:23.671620Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-27T18:14:23.671620Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2018-01-27T18:14:23.672620Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2018-01-27T18:14:23.672620Z 0 [Note] D:\scottkwdynamicweb\Templating\UwAmp\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9328 ...
+2018-01-27T18:14:23.690622Z 0 [ERROR] Can't open shared library 'D:\scottkwdynamicweb\Templating\UwAmp\UwAmp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 The specified module could not be found.)
+2018-01-27T18:14:23.691622Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2018-01-27T18:14:23.693622Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-27T18:14:23.693622Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-27T18:14:23.694623Z 0 [Note] InnoDB: Memory barrier is not used
+2018-01-27T18:14:23.694623Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-27T18:14:23.695623Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-27T18:14:23.696623Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-27T18:14:23.763629Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-27T18:14:23.779631Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-27T18:14:23.846638Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-27T18:14:24.091662Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-01-27T18:14:24.092662Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-01-27T18:14:24.309684Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-01-27T18:14:24.327686Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-01-27T18:14:24.328686Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-01-27T18:14:24.331686Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603113
+2018-01-27T18:14:24.332686Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\scottkwdynamicweb\Templating\UwAmp\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2018-01-27T18:14:24.332686Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-01-27T18:14:24.403693Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-01-27T18:14:24.406694Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-01-27T18:14:24.408694Z 0 [Note] IPv6 is available.
+2018-01-27T18:14:24.409694Z 0 [Note]   - '::' resolves to '::';
+2018-01-27T18:14:24.410694Z 0 [Note] Server socket created on IP: '::'.
+2018-01-27T18:14:24.470700Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-01-27T18:14:24.470700Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180127 11:14:24
+2018-01-27T18:14:24.471700Z 0 [Note] D:\scottkwdynamicweb\Templating\UwAmp\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)

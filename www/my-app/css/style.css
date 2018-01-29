@@ -4,16 +4,11 @@
 }
 body, html {
 	height: 100%;
-	margin: 0px;
-
-
 }
 
 body{
 	max-width: 1372px;
 	margin: auto;
-
-
 }
 
 header{
@@ -21,28 +16,67 @@ header{
 	max-width: 1200px;
 	height: 120px;
 	background: #242a2f;
+}
+main {
+	margin: auto;
+	padding: 0px;
+	
+}
+.container{
+	min-height: 100%;
 	
 
+}
+a{
+	text-decoration: none;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #242a2f;
+	font-size: 1.2em;
+	padding: 0px;
+
+}
+.small-text{
+	font-size: 0.8em; 
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #6174aa;
+
+}
+.header-container{
+	display: grid;
+	margin: 0px;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 .header_Text {
 	color: #fff;
 	font-family: 'Sonsie One', cursive;
-	display: block;
-	text-align: right;
-	position: relative;
-	bottom: 105px;
-	right: 90px;
-
+	text-align: left;
 }
+.Logo {
 
-header > img {
-	position: relative;
 	display: block;
 	margin: auto;
-
-
+}
+.social-container{
+	padding: 20px;
+	align-self: center;
+	margin: 0px;
+	display: inline-block;
+	top: 20px;
+	right: 10px;
 }
 
+.L-Beat-Heading{
+
+	position: relative;
+	bottom: 20px;
+	padding: 0px;
+	color: white;
+
+}
 div.scrollmenu{
 	margin: auto;
 	max-width: 1200px;
@@ -51,25 +85,26 @@ div.scrollmenu{
 	background-color: #242a2f;
 	overflow: auto;
 	white-space: nowrap;
-
-
 }
 
 div.scrollmenu a {
+	font-family: 'Roboto' , sans-serif;
 	background-color: #bcbdbc; 
 	display: inline-block;
-	color: #fff;
-	text-align: left;
+	color: #6174aa;
+	text-align: center;
 	padding: 10px;
-	height:200px;
-	width: 200px;
+	min-height:200px;
+	min-width: 200px;
+	max-height: 200px;
 	text-decoration: none;
+
 
 }
 
 div.scrollmenu a:hover {
 	background-color: #26408b;
-
+	color: white;
 
 }
 
@@ -93,20 +128,17 @@ div.scrollmenu a:hover {
 
 .article-list {
 	margin: auto;
-	max-width: 1372px;
-	margin-top: 50px; 
+	max-width: 1200px;
+	margin-top: 20px; 
 	display: grid;
 	grid-template-columns: repeat(19, 4.5em);
+
 	grid-row-gap: 50px;
-
-	
-	
-
-
+	grid-gap: 20px;
 }
 .article{
-	grid-column: 1/12;
-	background-color: #bcbdbc;
+	grid-column: 1/ span 12;
+	background-color: #d4d5d4;
 	padding: 10px;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -117,47 +149,122 @@ div.scrollmenu a:hover {
 .article img {
 
 	border-radius: 4px;
-	width: 100%;
+	width: 50%;
+}
+div.article--btn{
+	width: 200px;
+	height: 50px;
+	background-color: #d4d5d4;
+	float: right;
+	border: 5px solid #4e5155;
+	outline-style: solid 5px;
+	text-align: center;
+	padding: 10px;
+
+
+}
+div.article--btn a{
+	font-family: 'Roboto', sans-serif;
+	color: #6174aa;
+}
+
+div.article--btn:hover  {
+	background-color: #26408b;
+	
+
+
+}
+div.article--btn:hover a {
+	color: white;
+}
+
+div.article--btn.btn--right {
+	float: left;
+	
+}
+div.article--btn.btn--right {
+	text-align: center;
 }
 
 .article--right{
 	grid-template-columns: 2fr 1fr;
-	grid-column: 20/8;
+	grid-column: 2/ span 12;
+	grid-row: 2;
+	margin-bottom: 100px;
 
 }
 
 .article--right img{
-	grid-column: 20;
-
-
+	grid-column: 2;
+	grid-row: 1;
 }
 
 .article--right div{
+	
+	grid-column: 1;
 	grid-row: 1;
-	grid-column: 19;
 	text-align: right;
 
 }
+.clrfix{
+	clear:both;
 
+}
 footer {
-	position: absolute;
-	/*position: fixed;*/
+	position: fixed;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 20px;
+	max-width: 1200px;
+	height: 400px;
+	background-color: #d4d5d4;
+}
+.about--container{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 10px;
 
-	bottom: 0;
-	width: 1372px;
+}
+
+.about-text{
+	grid-column: 1;
+	grid-row: 1;
+	padding: 30px;
+	max-width: 800px;
+	max-height: 200px;
+}
+.media-links{
+	position: relative;
+	display: inline-block;
+	top: 30px;
+	grid-column: 2;
+	grid-row: 1;
 	height: 100px;
-	background-color: #ff6759;
-	
-	white-space: nowrap;
-
+	width: 200px;
 }
-footer > div {
-	width: 100%;
-	
 
+.media-links > img {
+	padding: 10px;
 }
+
 .bottom-color-box{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 	height: 50px;
+	width: 200px;
 	background-color: #242a2f;
+}
+.about-foot-text{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+	color: white;
 
 }
+
+

@@ -375,3 +375,20 @@
 [Sat Jan 27 11:14:26.546908 2018] [ssl:warn] [pid 8096:tid 248] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
 [Sat Jan 27 11:14:26.546908 2018] [ssl:warn] [pid 8096:tid 248] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
 [Sat Jan 27 11:14:26.580911 2018] [mpm_winnt:notice] [pid 8096:tid 248] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 27 20:10:32.408710 2018] [mpm_winnt:notice] [pid 10076:tid 236] AH00428: Parent: child process 8096 exited with status 1073807364 -- Restarting.
+[Sun Jan 28 11:59:38.677807 2018] [ssl:warn] [pid 2060:tid 236] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 28 11:59:38.677807 2018] [ssl:warn] [pid 2060:tid 236] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 28 11:59:39.348607 2018] [core:warn] [pid 2060:tid 236] AH00098: pid file D:/scottkwdynamicweb/Templating/UwAmp/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 28 11:59:39.567007 2018] [ssl:warn] [pid 2060:tid 236] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Jan 28 11:59:39.567007 2018] [ssl:warn] [pid 2060:tid 236] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 28 11:59:39.567007 2018] [ssl:warn] [pid 2060:tid 236] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 28 12:00:09.353207 2018] [mpm_winnt:notice] [pid 2060:tid 236] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Sun Jan 28 12:00:09.353207 2018] [mpm_winnt:notice] [pid 2060:tid 236] AH00456: Server built: Jan 28 2016 09:58:25
+[Sun Jan 28 12:00:09.353207 2018] [core:notice] [pid 2060:tid 236] AH00094: Command line: 'D:\\scottkwdynamicweb\\Templating\\UwAmp\\UwAmp\\bin\\apache\\bin\\httpd.exe -d D:/scottkwdynamicweb/Templating/UwAmp/UwAmp/bin/apache -f D:\\scottkwdynamicweb\\Templating\\UwAmp\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sun Jan 28 12:00:09.377207 2018] [mpm_winnt:notice] [pid 2060:tid 236] AH00418: Parent: Created child process 6892
+[Sun Jan 28 12:00:10.155207 2018] [ssl:warn] [pid 6892:tid 248] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 28 12:00:10.155207 2018] [ssl:warn] [pid 6892:tid 248] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 28 12:00:10.495207 2018] [ssl:warn] [pid 6892:tid 248] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Jan 28 12:00:10.496207 2018] [ssl:warn] [pid 6892:tid 248] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 28 12:00:10.496207 2018] [ssl:warn] [pid 6892:tid 248] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 28 12:00:10.564207 2018] [mpm_winnt:notice] [pid 6892:tid 248] AH00354: Child: Starting 64 worker threads.
